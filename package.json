@@ -1,19 +1,37 @@
 {
   "name": "md-open",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A markdown viewer for your terminal.",
-  "main": "index.js",
   "scripts": {
+    "start": "./bin/md-open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "main": "./index.js",
+  "bin": {
+    "md-open": "./bin/md-open"
+  },
+  "preferGlobal": true,
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "author": "rec",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RodrigoEspinosa/gitter-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RodrigoEspinosa/md-open/issues"
+  },
+  "homepage": "https://github.com/RodrigoEspinosa/md-open",
+  "license": "MIT",
   "keywords": [
     "markdown",
     "cli"
   ],
-  "author": "rec",
-  "license": "MIT",
   "dependencies": {
     "chalk": "^1.0.0",
+    "commander": "^2.8.1",
     "html-to-text": "^1.3.0",
     "marked": "^0.3.3"
   }
