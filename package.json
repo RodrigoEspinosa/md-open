@@ -1,6 +1,6 @@
 {
   "name": "md-open",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A markdown viewer for your terminal.",
   "scripts": {
     "start": "./bin/md-open",
