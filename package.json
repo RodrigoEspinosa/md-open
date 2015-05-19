@@ -16,6 +16,9 @@
     "lib"
   ],
   "author": "rec",
+  "contributors": [
+    "Jacobo Tabernero (jacoborus.codes) <jacobo@xarope.eu>"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/RodrigoEspinosa/gitter-cli.git"
