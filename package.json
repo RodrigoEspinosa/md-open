@@ -1,6 +1,6 @@
 {
   "name": "md-open",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A markdown viewer for your terminal.",
   "scripts": {
     "start": "./bin/md-open",
@@ -16,6 +16,9 @@
     "lib"
   ],
   "author": "rec",
+  "contributors": [
+    "Jacobo Tabernero (jacoborus.codes) <jacobo@xarope.eu>"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/RodrigoEspinosa/gitter-cli.git"
