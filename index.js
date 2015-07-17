@@ -1,1 +1,1 @@
-require('./lib/md-open');
+module.exports = require('./lib/md-open');
